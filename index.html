@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>airPods (от 0 до 1)</title>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- SCRIPTS -->
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <header class="header color--blue">
+    <div class="container container--header">
+      <div class="header__top">
+        <a class="header__logo logo" href="#">
+          <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.7938 2.61067C15.8087 0.0126657 18.6099 0 18.6099 0C18.6099 0 19.0266 2.44257 17.0249 4.79554C14.8876 7.30799 12.4582 6.89687 12.4582 6.89687C12.4582 6.89687 12.002 4.92092 13.7938 2.61067ZM12.7145 8.60788C13.751 8.60788 15.6749 7.21396 18.179 7.21396C22.4893 7.21396 24.185 10.2145 24.185 10.2145C24.185 10.2145 20.8686 11.8733 20.8686 15.8983C20.8686 20.4389 25 22.0038 25 22.0038C25 22.0038 22.112 29.9559 18.2111 29.9559C16.4194 29.9559 15.0264 28.7748 13.1387 28.7748C11.2148 28.7748 9.30575 30 8.06234 30C4.50021 30.0001 0 22.4566 0 16.3929C0 10.4271 3.80913 7.29755 7.38194 7.29755C9.70459 7.29755 11.507 8.60788 12.7145 8.60788Z"
+              fill="black" />
+          </svg>
+        </a>
+        <nav class="menu ">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link">Info</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Product</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+            <li class="menu__item"><button class="menu__btn btn">BUY</button></li>
+          </ul>
+        </nav>
+        <button class="header__burger burger" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="header__content">
+        <div class="header__images">
+          <img class="header__image color--blue color--active" src="images/header-blue.png" alt="">
+          <img class="header__image color--black" src="images/header-black.png" alt="">
+          <img class="header__image color--green" src="images/header-green.png" alt="">
+          <img class="header__image color--red" src="images/header-red.png" alt="">
+          <img class="header__image color--white" src="images/header-white.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="choose-color">
+      <div class="container">
+        <h3 class="choose-color__title">Choose your colour</h3>
+        <p class="choose-color__text">The perfect balance between the purityof hi‑fi and the magic of AirPods.
+          The ultimate personal audio experience.</p>
+        <div class="choose-color__buttons">
+          <button class="choose-color__btn color--blue color--active" data-color="color--blue">
+            <img class="choose-color__img" src="images/btn-blue.png" alt="">
+          </button>
+          <button class="choose-color__btn color--black" data-color="color--black">
+            <img class="choose-color__img" src="images/btn-black.png" alt="">
+          </button>
+          <button class="choose-color__btn color--green" data-color="color--green">
+            <img class="choose-color__img" src="images/btn-green.png" alt="">
+          </button>
+          <button class="choose-color__btn color--red" data-color="color--red">
+            <img class="choose-color__img" src="images/btn-red.png" alt="">
+          </button>
+          <button class="choose-color__btn color--white" data-color="color--white">
+            <img class="choose-color__img" src="images/btn-white.png" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="composition">
+      <div class="container">
+        <h2 class="composition__title section-title">
+          An extremely original composition.
+        </h2>
+        <p class="composition__subtitle">
+          Introducing the reinvention of over-the-ear headphones. From the cushion to the headband, the AirPods Max are
+          designed with acoustic insulation in mind, adapted to many head shapes, so you can immerse yourself in the
+          purity of sound.
+        </p>
+        <div class="composition__inner">
+          <div class="composition__text">
+            <p>The headband is made of breathable mesh, distributing the weight to reduce pressure on the head.</p>
+            <p>The stainless steel structure is wrapped in a soft-touch material to provide a remarkable harmony between
+              resistance, flexibility and comfort.</p>
+            <p>The telescoping arms expand and stay in any position you want, allowing you to maintain fit and
+              isolation.</p>
+          </div>
+          <img class="composition__img color--blue color--active" src="images/composition-blue.jpg" alt="">
+          <img class="composition__img color--black" src="images/composition-black.jpg" alt="">
+          <img class="composition__img color--green" src="images/composition-green.jpg" alt="">
+          <img class="composition__img color--red" src="images/composition-red.jpg" alt="">
+          <img class="composition__img color--white" src="images/composition-white.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="battery">
+      <div class="container">
+        <h2 class="battery__title section-title">
+          It even preserves the battery.
+        </h2>
+        <p class="battery__subtitle">
+          When stored in the sleek and lightweight <b>Smart Case</b> , AirPods Max enter a low-power state to save
+          energy.
+        </p>
+      </div>
+      <img class="battery__img color--blue color--active" src="images/battery-blue.jpg" alt="">
+      <img class="battery__img color--black" src="images/battery-black.jpg" alt="">
+      <img class="battery__img color--green" src="images/battery-green.jpg" alt="">
+      <img class="battery__img color--red" src="images/battery-red.png" alt="">
+      <img class="battery__img color--white" src="images/battery-white.jpg" alt="">
+    </section>
+
+    <section class="alive">
+      <div class="container">
+        <h2 class="alive__title section-title">
+          Stayin' alive, stayin' alive.
+        </h2>
+        <p class="alive__number">20</p>
+        <p class="alive__text">
+          hours of music, movies and calls with Active Noise Cancellation and Custom Spatial Audio turned on. 5 And just
+          5 minutes of charging via the Lightning connector gives you an hour and a half of sound. 6
+        </p>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="container">
+        <div class="experience__inner">
+          <div class="experience__text">
+            <p>Custom Spatial Audio with dynamic head tracking provides a surround sound experience worthy of a movie
+              theater.
+              <br><br>
+              Through built-in gyroscopes and accelerometers, AirPods Max and your iPhone, iPad, Mac or Apple
+              TV detect the slightest head movements and keep the sound steady on your device.
+              <br><br>
+              And with Apple
+              Music, custom Spatial Audio with dynamic head tracking creates a unique three-dimensional
+              listening experience.
+            </p>
+          </div>
+          <button class="menu__btn btn btn--white">BUY</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner-top">
+        <a class="footer__link" href="#">Find a retailer near you</a>
+        <a class="footer__link" href="tel:800207758">Or call 800 207 758</a>
+        <a class="footer__logo" href="#"><img src="images/logo-white.svg" alt=""></a>
+      </div>
+      <div class="footer__inner-bottom">
+        <p>Copyright © 2023 Apple Inc.</p>
+        <p>All rights reserved.</p>
+        <a class="footer__link" href="#">Legal Notices</a>
+        <a class="footer__link" href="#">Site Map</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
